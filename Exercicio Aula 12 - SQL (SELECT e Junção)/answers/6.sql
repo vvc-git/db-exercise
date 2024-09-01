@@ -1,0 +1,3 @@
+SELECT *
+FROM autores
+WHERE datNasc BETWEEN '01-01-1980' AND '31/12/1980' AND nome LIKE '%C'

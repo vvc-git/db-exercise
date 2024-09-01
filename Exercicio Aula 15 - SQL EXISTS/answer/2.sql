@@ -1,0 +1,1 @@
+select v.data, v.hora, c.nome from venda v left join cliente c on v.codclie = c.codigo;

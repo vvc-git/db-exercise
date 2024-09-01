@@ -1,0 +1,2 @@
+SELECT nome
+from venda 

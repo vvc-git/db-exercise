@@ -1,0 +1,1 @@
+select f.nome from funcionario f where f.nome in (select f.nome from cliente c where f.email = c.email);

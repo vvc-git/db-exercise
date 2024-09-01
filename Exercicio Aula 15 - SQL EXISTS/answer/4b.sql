@@ -1,0 +1,1 @@
+select f.nome from funcionario f join cliente c on c.nome = f.nome and c.email = f.email;

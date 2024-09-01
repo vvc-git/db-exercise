@@ -1,0 +1,1 @@
+select distinct p.nome from produto p join produtovendido pv on p.codigo = pv.codprod where pv.valor < p.preco;
